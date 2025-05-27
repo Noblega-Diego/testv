@@ -96,6 +96,18 @@ function RootLayoutNav() {
             headerStyle: { backgroundColor: Colors.background },
           }} 
         />
+        <Stack.Screen 
+          name="cart" 
+          options={{ 
+            headerShown: false,
+          }} 
+        />
+        <Stack.Screen 
+          name="product/[id]" 
+          options={{ 
+            headerShown: false,
+          }} 
+        />
       </Stack>
     </>
   );
